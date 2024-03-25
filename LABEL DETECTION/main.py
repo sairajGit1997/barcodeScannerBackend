@@ -3,7 +3,7 @@ import cv2
 import math
 
 # Model
-model = YOLO("/Users/harshavardhandasari/Desktop/LABEL DETECTION/weights/best.pt")
+model = YOLO("/LABEL DETECTION/weights/best.pt")
 
 # Start webcam
 cap = cv2.VideoCapture(1)
